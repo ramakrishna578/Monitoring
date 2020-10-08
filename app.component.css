@@ -1,0 +1,48 @@
+p {
+  font-family: Lato;
+}
+
+:host /deep/ table {
+  border: 2px solid lightgray;
+  font: 20px
+}
+:host /deep/ table thead {
+  background-color: gray;
+}
+
+:host /deep/ table thead a{
+  color: black;
+}
+
+:host /deep/ table tr td{
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+:host /deep/ table tr td:nth-child(1){
+  background-color: lightgray;
+}
+
+:host /deep/ table tr th{
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+
+:host /deep/ .colorGreen {
+  background-color: green;
+  margin: unset;
+}
+:host /deep/ .colorYellow {
+  background-color: yellow;
+  margin: unset;
+}
+:host /deep/ .colorOrange {
+  background-color: orange;
+  margin: unset;
+}
+:host /deep/ .colorRed {
+  background-color: red;
+  margin: unset;
+}
